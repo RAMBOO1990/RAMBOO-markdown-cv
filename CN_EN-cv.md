@@ -27,8 +27,8 @@ Supported arguments:
 浙江，中国 ZheJiang, China
 ```
 
-- 软件工程，硕士学位 Master Degree, Software Engineering
-- 研究方向：移动互联网与游戏开发
+* 软件工程，硕士学位 Master Degree, Software Engineering
+* 研究方向：移动互联网与游戏开发 Major in Mobile Internet & Game Engineering
 
 ### **贵州大学 GuiZhou University** `2009.9 - 2013.6`
 
@@ -36,7 +36,7 @@ Supported arguments:
 贵阳，中国 GuiYang, China
 ```
 
-- 计算机科学，学士学位 B.S., Computer Science
+* 计算机科学，学士学位 Bachelor's degree, Computer Science
 
 ## 曾获荣誉 Honors & Awards
 
@@ -117,7 +117,7 @@ Supported arguments:
 * Porn & Insult Antispam:
     1.  Training Fasttext, CNN, BERT ensemble classifier.
     `precision 60% / recall 61% (+3% / +4%)`
-    2.  Use "title-comment" sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
+    2.  Use **title-comment** sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
     `precision 79% / recall 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 

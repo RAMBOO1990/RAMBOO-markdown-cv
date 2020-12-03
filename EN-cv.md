@@ -36,7 +36,7 @@ ZheJiang, China
 GuiZhou, China
 ```
 
-- Bachelor's degree, Computer Science
+* Bachelor's degree, Computer Science
 
 ## Honors & Awards
 
@@ -51,9 +51,9 @@ NOIP (GuangDong) Third Prize `GuangDong, 2005.11` <br>
 
 ## Work Experience
 
-### **Baidu** `2015.7 - `
+### **Baidu** `2015.7 - Present`
 
-* NLP Engineer `2017.6 - `
+* NLP Engineer `2017.6 - Present`
 * Software Engineer `2015.7 - 2017.6`
 
 ### **Baidu Intern** `2014.4 - 2014.12`
@@ -81,7 +81,7 @@ NOIP (GuangDong) Third Prize `GuangDong, 2005.11` <br>
 
 ## Project Experience
 
-### **Baidu Feed NLP Antispam** `2018.5 - `
+### **Baidu Feed NLP Antispam** `2018.5 - Present`
 
 * Target: Check & Delete malicious Ad, porn, insult content in Baidu Feed comment, nickname, user sign, UGC text etc.
 * Ad Antispam: Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad check rule.
