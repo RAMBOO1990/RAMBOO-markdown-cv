@@ -24,7 +24,7 @@ Supported arguments:
 ### **浙江大学 ZheJiang University** `2013.9 - 2015.6`
 
 ```
-浙江 ZheJiang, China
+浙江，中国 ZheJiang, China
 ```
 
 - 软件工程，硕士学位 Master Degree, Software Engineering
@@ -33,7 +33,7 @@ Supported arguments:
 ### **贵州大学 GuiZhou University** `2009.9 - 2013.6`
 
 ```
-贵阳 GuiYang, China
+贵阳，中国 GuiYang, China
 ```
 
 - 计算机科学，学士学位 B.S., Computer Science
@@ -51,9 +51,14 @@ Supported arguments:
 
 ## 工作经验 Work Experience
 
-### **百度研发工程师 Baidu R&D** `2015.7 -`
+### **百度 Baidu** `2015.7 -`
 
-### **百度研发工程师(实习) Baidu R&D Intern** `2014.4 - 2014.12`
+* NLP策略工程师 NLP Engineer `2017.6 - `
+* 研发工程师 Software Engineer `2015.7 - 2017.6`
+
+### **百度(实习) Baidu Intern** `2014.4 - 2014.12`
+
+* 研发工程师 Software Engineer
 
 ## 专业技能 Professional Skills
 
@@ -97,22 +102,22 @@ Supported arguments:
     `准召：79% / 64% (+19% / +3%)`
 * 成果：始终保持线上随机文章评论及热门文章top评论残留率在0.5%以内；提高了广告反作弊策略泛化能力，将模型迭代周期从月级缩短至周级，增加黑产作弊成本。
 
-* Project Background: Check & Delete malicious Ad, porn, insult content in Baidu Feed comment, nickname, user sign, UGC text etc.
+* Target: Check & Delete malicious Ad, porn, insult content in Baidu Feed comment, nickname, user sign, UGC text etc.
 * Ad Antispam: Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad check rule.
-    1. **word2vec** by comment corpus, train **fasttext**. Add **wordseg, pinyin** feature.
+    1. **word2vec** pretrain with Feed comment corpus, train **fasttext** for classifier. Add **wordseg, pinyin** feature.
     `precision 92% / recall 38% (+33% / +18%)`
     2. **Deform Text Reverse** for malicious Ad with similar character.
     `precision 83% / recall 72% (-9% / +34%)`
     3. **Split long text** for malicious Ad with long harmless text.
     `precision 85% / recall 80% (+2% / +8%)`
     4. **Remove radical** for malicious Ad with deformed character by adding radical.
-    `precision 83% / recall 78% (-2% / -2%), solve malicious Ad bad case 60%`
+    `precision 83% / recall 78% (-2% / -2%), solve malicious Ad 60%`
     5. Embedding with **Chinese charcter component**.
-    `precision 85% / recall 84% (+2% / +6%), solve malicious Ad bad case 100%`
+    `precision 85% / recall 84% (+2% / +6%), solve malicious Ad 100%`
 * Porn & Insult Antispam:
-    1.  training Fasttext, CNN, BERT ensemble.
+    1.  Training Fasttext, CNN, BERT ensemble classifier.
     `precision 60% / recall 61% (+3% / +4%)`
-    2.  Use "title-comment" sentence pair for BERT NSP pretrain, add title feature. Add more labeled corpus for BERT Finetune.
+    2.  Use "title-comment" sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
     `precision 79% / recall 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 

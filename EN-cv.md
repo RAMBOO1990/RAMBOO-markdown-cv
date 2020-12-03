@@ -51,12 +51,12 @@ NOIP (GuangDong) Third Prize `GuangDong, 2005.11` <br>
 
 ## Work Experience
 
-### **Baidu R&D** `2015.7 -`
+### **Baidu** `2015.7 - `
 
-* NLP Engineer
-* Software Engineer
+* NLP Engineer `2017.6 - `
+* Software Engineer `2015.7 - 2017.6`
 
-### **Baidu R&D Intern** `2014.4 - 2014.12`
+### **Baidu Intern** `2014.4 - 2014.12`
 
 * Software Engineer
 
@@ -98,7 +98,7 @@ NOIP (GuangDong) Third Prize `GuangDong, 2005.11` <br>
 * Porn & Insult Antispam:
     1.  Training Fasttext, CNN, BERT ensemble classifier.
     `precision 60% / recall 61% (+3% / +4%)`
-    2.  Use "title-comment" sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
+    2.  Use **title-comment** sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
     `precision 79% / recall 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 
