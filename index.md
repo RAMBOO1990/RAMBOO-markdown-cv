@@ -1,15 +1,13 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: RAMBOO CV
+phone: 170-9041-7441
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: mailto:ramboooo@126.com
+  text: ramboooo@126.com
 ---
 
-# Wode **Ni**
+# 袁晖 YuanHui
 
 <!--
 include contact information from the front matter
@@ -21,137 +19,100 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 教育经历 Education
 
-### **Carnegie Mellon University** `2018.9 -`
-
-```
-Pittsburgh, PA
-```
-
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
-
-### **Columbia University** `2016.9 - 2018.5`
+### **浙江大学 ZheJiang University** `2013.9 - 2015.6`
 
 ```
-New York, NY
+浙江 ZheJiang, China
 ```
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+- 软件工程，硕士学位 Master Degree, Software Engineering
+- 研究方向：移动互联网与游戏开发
 
-### **Dickinson College** `2013.9 - 2016.5`
+### **贵州大学 GuiZhou University** `2009.9 - 2013.6`
 
 ```
-Carlisle, PA
+贵阳 GuiYang, China
 ```
 
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+- 计算机科学，学士学位 B.S., Computer Science
 
-## Publications
+## 曾获荣誉 Honors & Awards
 
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
-Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_ACM Transactions on Graphics (SIGGRAPH'20)._<br>
-[[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
-[[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
+百度LBS 2016最佳团队 Baidu LBS'2016 Best Team Award `Baidu, 2017.1` <br>
+贵州大学程序设计大赛一等奖 GZU ICPC 1st price `GuiZhou University, 2012.6` <br>
+贵州大学程序设计大赛一等奖 GZU ICPC 1st price `GuiZhou University, 2011.6` <br>
+全国青少年信息学奥林匹克联赛（广东赛区）二等奖 NOIP (GuangDong) 2nd price `GuangDong, 2009.11` <br>
+全国青少年信息学奥林匹克联赛（广东赛区）三等奖 NOIP (GuangDong) 3rd price `GuangDong, 2008.11` <br>
+全国青少年信息学奥林匹克联赛（广东赛区）二等奖 NOIP (GuangDong) 2nd price `GuangDong, 2007.11` <br>
+全国青少年信息学奥林匹克联赛（广东赛区）三等奖 NOIP (GuangDong) 3rd price `GuangDong, 2006.11` <br>
+全国青少年信息学奥林匹克联赛（广东赛区）三等奖 NOIP (GuangDong) 3rd price `GuangDong, 2005.11` <br>
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
+## 工作经验 Work Experience
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+### **百度研发工程师 Baidu R&D** `2015.7 -`
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
+### **百度研发工程师(实习) Baidu R&D Intern** `2014.4 - 2014.12`
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({ page.homepage.url }}/aassets/plateau-19-presentation.pdf)]
+## 专业技能 Professional Skills
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
+### **算法 Algorithm**
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+* **基础（精通） Base: 贪心 Greedy / 递归 Recursive / 排序 Sort / 二分 Bisection Search**
+* **数据结构（熟悉） Data Structure: 树状数组 Binary Indexed Tree / 哈希表 Hash Table / 堆 Heap**
+* **树遍历（精通） Tree Search: 广搜 DFS / 深搜 BFS**
+* **图论（熟悉） Graph Theory: 联通性 Connectedness / 最短路 Shortest Path / 拓扑排序 Topological Sorting**
+* 数论（了解） Number Theory: 博弈论 Game Theory / 组合数学 Combinatorial Mathematics
+* 动态规划（了解） DP: 背包问题 Knapsack Problem / 记忆化搜索 Memorize Search
+* **深度神经网络（熟悉） DNN: word2vec / FastText / 卷积神经网络 CNN / 循环神经网络 RNN / BERT**
+* 机器学习（了解） Machine Learning: k近邻 k-NN / 朴素贝叶斯 Naive Bayes / 决策树 Decision Tree / k均值 k-means
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+### **软件工程 Software Engineering**
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+* 服务端研发 Service Develop: Python / PHP / Shell
+* 中间件应用 Middleware Apply: MySQL / Redis / Messge Queue / Hadoop
+* 机器学习应用 Machine Learning Apply: TensorFlow / Keras / PyTorch
 
----
+## 项目经历 Project Experience
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+### **Feed短文本反作弊策略研发 Baidu Feed NLP Antispam Engineer** `2018.5 - `
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
+* 项目背景：识别并过滤短文本的广告、色情、辱骂文本内容，主要业务场景为百度Feed信息流评论，并已输出至百度视频弹幕、用户签名、用户昵称、百度贴吧等业务。
+* 广告反作弊策略优化：数据归一化、变体词召回、变体还原、模型识别、规则识别。模型迭代自动化，联合搜索业务封禁黑产域名。
+    1. 使用大量feed评论语料预训练词向量，使用**fasttext**训练分类模型；数据预处理环节添加**单字、分词、拼音**特征；训练数据集增加众测数据。
+    `准召：92% / 38% (+33% / +18%)`
+    2. 数据预处理阶段加入**变体还原**策略，对黑产变体case进行数据清洗；形近字数据增强。
+    `准召：83% / 72% (-9% / +34%)`
+    3. 长文本分割策略，解决黑产冗余文本case。
+    `准召：85% / 80% (+2% / +8%)。`
+    4. 添加去部首变体，输入序列加入字形特征。
+    `准召：83% / 78% (-2% / -2%)。黑产case解决率60%。`
+    5. embedding加入字形特征，提升形近字泛化能力。
+    `准召：85% / 84% (+2% / +6%)。黑产case解决率100%。`
+* 色情、辱骂反作弊策略优化：
+    1. fasttext + cnn + bert多模型融合。
+    `准召：60% / 61% (+3% / +4%)`
+    2. 使用“标题-评论”sentence-pair进行预训练任务，引入标题语境特征。例行添加标注样本，迭代模型。
+    `准召：79% / 64% (+19% / +3%)`
+* 成果：始终保持线上随机文章评论及热门文章top评论残留率在0.5%以内；提高了广告反作弊策略泛化能力，将模型迭代周期从月级缩短至周级，增加黑产作弊成本。
 
-## Experience
+* Project Background: Check & Delete malicious Ad, porn, insult content in Baidu Feed comment, nickname, user sign, UGC text etc.
+* Ad Antispam: Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad check rule.
+    1. Use large Feed comment corpus for word2vec pretrain, train **fasttext** as classifier. Add **character, wordseg, pinyin** feature.
+    `precision 92% / recall 38% (+33% / +18%)`
+    2. **Deform Text Reverse** for malicious Ad with similar character.
+    `precision 83% / recall 72% (-9% / +34%)`
+    3. **Split long text** for malicious Ad with long harmless text.
+    `precision 85% / recall 80% (+2% / +8%)`
+    4. **Remove radical** for malicious Ad with deformed character by adding radical.
+    `precision 83% / recall 78% (-2% / -2%), solve malicious Ad bad case 60%`
+    5. Embedding with **Chinese charcter component**.
+    `precision 85% / recall 84% (+2% / +6%), solve malicious Ad bad case 100%`
+* Porn & Insult Antispam:
+    1.  training Fasttext, CNN, BERT ensemble.
+    `precision 60% / recall 61% (+3% / +4%)`
+    2.  Use "title-comment" sentence pair for BERT NSP pretrain, add title feature. Add more labeled corpus for BERT Finetune.
+    `precision 79% / recall 64% (+19% / +3%)`
+* Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 
-### **Microsoft Research** `2020.5 -`
-
-_Research Intern_<br>
-
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
-
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### **AsiaInfo** `2015.6 - 2015.8`
-
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-## Mentoring
-
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
-## Honors & Awards
-
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
----
-
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-
-## Service
-
-Reviewer `CHI 2021`
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2020`
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
