@@ -89,7 +89,7 @@ BeiJing, China
 
 ## Project Experience
 
-### **Baidu Feed NLP Antispam** `2018.5 - Present`
+### **Baidu Feed Short Text Antispam** `2018.5 - Present`
 
 * Target: Detect malicious Ad, pornographic, insulting language from Baidu Feed comment, nickname, user sign, UGC text, etc.
 * Ad Antispam<!-- : Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad detect rule. -->
@@ -103,15 +103,70 @@ BeiJing, China
     `PR: 83% / 78% (-2% / -2%), Malicious Ad solve 60%`
     5. Embedding with **Chinese charcter component**.
     `PR: 85% / 84% (+2% / +6%), Malicious Ad solve 100%`
-* Porn & Insult Antispam:
+* Porn & Insult Antispam
     1.  Training Fasttext, CNN, BERT ensemble classifier.
     `PR: 60% / 61% (+3% / +4%)`
     2.  Use **title-comment** sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
     `PR: 79% / 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 
-### **Baidu Feed NLP Low Quality Text Detection** `2019.9 – Present`
+### **Baidu Feed Low Quality Text Detection** `2019.9 – Present`
 
 * Target: Detect low quality langurage (defaming original poster, defaming famous, copy comment, messy code, etc.) from Baidu Feed comment, UGC text.
 * Personal Work: Identification comment target, add emotion feature, add messy code detect rule.
 * Result: Reduce low quality rate on random page from 13.3% to 9% (-3.3%), low quality rate on top 50 page from 10.4% to 10.1% (-0.3%)
+
+### **Baidu Feed Low Quality Text Detection** `2019.9 – Present`
+
+* Target: Detect low quality langurage (defaming original poster, defaming famous, copy comment, messy code, etc.) from Baidu Feed comment, UGC text.
+* Personal Work: Identification comment target, add emotion feature, add messy code detect rule.
+* Result: Reduce low quality rate on random page from 13.3% to 9% (-3.3%), low quality rate on top 50 page from 10.4% to 10.1% (-0.3%)
+
+
+### **Baidu Feed Antispam Service Development** `2017.7 – 2018.2`
+
+* Target: Develop Baidu Feed Antispam Service, support BaiJiaHao PGC, UGC content Antispam.
+* Personal Work: Service framework design (PHP + BigPipe + DStream) & development. Add keyword realtime configuration ability.
+* Result: Support Baidu Feed antispam, daily query above 200k.
+
+<!-- ### **相关知识推荐，策略研发** `2017.5 – 2017.6 `
+
+* Target: 百度feed文章落地页添加相关知识推荐卡片槽位，展示文章主题相关的百科词条。
+* Personal Work: 数据流接入，主题模型效果调优。
+* Result: 百科知识模块分发2.6万，展现226万（占feed全量0.5%），点展比1.33%；召回百科落地页平均时长+0.9秒/每篇(+1.23%)；
+ -->
+### **Baidu Hotel Guarantee Prepay Function Development** `2017.3 – 2017.4`
+
+* Target: Support hotel room rate & guarantee online prepay and refund. Sync capital pool with Baidu Payment. Sync hotel info with TPs.
+* Personal Work: Project schedule management. Service framework design (business, client, payment, order module). Payment module development.
+* Result: Support 18580 hotel guarantee prepayment.
+	- Order quantity average > 350, GMV > 94000 RMB daily, ccupancy rate increase 3%, order room-night increase 1.85%.
+	- Guarantee prepay rate 15.25%, is 3.55% more than Ctrip.
+
+<!-- ### **酒店商家自促，服务端研发接口人** `2016.12 – 2017.1`
+
+* Target: 支持酒店商家线上预定流程自营销，同时获取C端优质曝光位。
+* Personal Work: 项目管理；系统架构设计，营销模块商家资金池开发。
+
+### **酒店营销平台，服务端研发负责人** `2015.7 – 2016.11`
+
+* Target: 支持代金券优惠、下单立减等运营功能。
+* Personal Work: 技术优化5+项（API并行化、异步等）；平台功能扩展10+项（随机、周期、推送、下单分享等）
+* Result: API平响从秒级优化至毫秒级，运营活动迭代从周级缩短至2天，扩展至3个业务线，运营关联订单GMV14.72亿（2016上半年）
+
+### **机票预订，服务端研发** `2015.12`
+
+* Target: 接入携程机票预订业务。
+* Personal Work: 系统架构设计，订单中心模块功能实现。
+
+### **分布式流程控制引擎，服务端研发** `2014.10 – 2014.12`
+
+* Target: 基于DAG的任务自动化处理服务。
+* Personal Work: 任务调度DAG流程设计，任务调度引擎开发。
+* Result: 地图内业工艺整体流程时间从天级减少至8h内。
+
+### **百度地图内业数据管理系统，服务端研发** `2014.4 – 2014.12`
+
+* Target: 支持底图数据内业生产流程。
+* Personal Work: 流程优化，接入数据工具10+项，系统功能实现。
+ -->
