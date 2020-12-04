@@ -51,12 +51,20 @@ Supported arguments:
 
 ## 工作经验 Work Experience
 
-### **百度 Baidu** `2015.7 -`
+### **百度 Baidu** `2015.7 - Present`
 
-* NLP策略工程师 NLP Engineer `2017.6 - `
-* 研发工程师 Software Engineer `2015.7 - 2017.6`
+```
+北京，中国 BeiJing, China
+```
+
+* NLP策略工程师 NLP Engineer
+* 研发工程师 Software Engineer
 
 ### **百度(实习) Baidu Intern** `2014.4 - 2014.12`
+
+```
+北京，中国 BeiJing, China
+```
 
 * 研发工程师 Software Engineer
 
@@ -81,7 +89,7 @@ Supported arguments:
 
 ## 项目经历 Project Experience
 
-### **Feed短文本反作弊策略研发 Baidu Feed NLP Antispam** `2018.5 - `
+### **Feed短文本反作弊策略研发 Baidu Feed NLP Antispam** `2018.5 - Present`
 
 * 项目背景：识别并过滤短文本的广告、色情、辱骂文本内容，主要业务场景为百度Feed信息流评论，并已输出至百度视频弹幕、用户签名、用户昵称、百度贴吧等业务。
 * 广告反作弊策略优化：数据归一化、变体词召回、变体还原、模型识别、规则识别。模型迭代自动化，联合搜索业务封禁黑产域名。

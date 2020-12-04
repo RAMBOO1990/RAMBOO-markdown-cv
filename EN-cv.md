@@ -53,10 +53,18 @@ NOIP (GuangDong) Third Prize `GuangDong, 2005.11` <br>
 
 ### **Baidu** `2015.7 - Present`
 
-* NLP Engineer `2017.6 - Present`
-* Software Engineer `2015.7 - 2017.6`
+```
+BeiJing, China
+```
+
+* NLP Engineer
+* Software Engineer
 
 ### **Baidu Intern** `2014.4 - 2014.12`
+
+```
+BeiJing, China
+```
 
 * Software Engineer
 
