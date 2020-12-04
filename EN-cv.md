@@ -92,7 +92,7 @@ BeiJing, China
 ### **Baidu Feed NLP Antispam** `2018.5 - Present`
 
 * Target: Detect malicious Ad, pornographic, insulting language from Baidu Feed comment, nickname, user sign, UGC text, etc.
-* Ad Antispam: Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad detect rule.
+* Ad Antispam<!-- : Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad detect rule. -->
     1. **word2vec** pretrain with Feed comment corpus, train **fasttext** for classifier. Add **wordseg, pinyin** feature.
     `PR: 92% / 38% (+33% / +18%)`
     2. **Deform Text Reverse** for malicious Ad with similar character.
