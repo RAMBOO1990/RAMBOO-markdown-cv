@@ -64,20 +64,20 @@ Supported arguments:
 
 ### **算法**
 
-* **基础（精通） Base: 贪心 Greedy / 递归 Recursive / 排序 Sort / 二分 Bisection Search**
-* **数据结构（熟悉） Data Structure: 树状数组 Binary Indexed Tree / 哈希表 Hash Table / 堆 Heap**
-* **树遍历（精通） Tree Search: 广搜 DFS / 深搜 BFS**
-* **图论（熟悉） Graph Theory: 联通性 Connectedness / 最短路 Shortest Path / 拓扑排序 Topological Sorting**
-* 数论（了解） Number Theory: 博弈论 Game Theory / 组合数学 Combinatorial Mathematics
-* 动态规划（了解） DP: 背包问题 Knapsack Problem / 记忆化搜索 Memorize Search
-* **深度神经网络（熟悉） DNN: word2vec / FastText / 卷积神经网络 CNN / 循环神经网络 RNN / BERT**
-* 机器学习（了解） Machine Learning: k近邻 k-NN / 朴素贝叶斯 Naive Bayes / 决策树 Decision Tree / k均值 k-means
+* **基础（精通）: 贪心 / 递归 / 排序 / 二分**
+* **数据结构（熟悉）: 树状数组 / 哈希表 / 堆**
+* **树遍历（精通）: 广搜 / 深搜**
+* **图论（熟悉）: 联通性 / 最短路 / 拓扑排序**
+* 数论（了解）: 博弈论 / 组合数学
+* 动态规划（了解）: 背包问题 / 记忆化搜索
+* **深度神经网络（熟悉）: word2vec / FastText / 卷积神经网络 / 循环神经网络 / BERT**
+* 机器学习（了解）: k近邻 / 朴素贝叶斯 / 决策树 / k均值
 
 ### **软件工程**
 
-* 服务端研发 Service Develop: Python / PHP / Shell
-* 中间件应用 Middleware Apply: MySQL / Redis / Messge Queue / Hadoop
-* 机器学习应用 Machine Learning Apply: TensorFlow / Keras / PyTorch
+* 服务端研发: Python / PHP / Shell
+* 中间件应用: MySQL / Redis / Messge Queue / Hadoop
+* 机器学习应用: TensorFlow / Keras / PyTorch
 
 ## 项目经历
 
@@ -85,7 +85,7 @@ Supported arguments:
 
 * 项目背景：识别并过滤短文本的广告、色情、辱骂文本内容，主要业务场景为百度Feed信息流评论，并已输出至百度视频弹幕、用户签名、用户昵称、百度贴吧等业务。
 * 广告反作弊策略优化：数据归一化、变体词召回、变体还原、模型识别、规则识别。模型迭代自动化，联合搜索业务封禁黑产域名。
-    1. 使用大量feed评论语料预训练词向量，使用**fasttext**训练分类模型；数据预处理环节添加**单字、分词、拼音**特征；训练数据集增加众测数据。
+    1. 使用大量feed评论语料预训练词向量，使用**fasttext**训练分类模型；添加**单字、分词、拼音**特征；增加训练数据。
     `准召：92% / 38% (+33% / +18%)`
     2. 数据预处理阶段加入**变体还原**策略，对黑产变体case进行数据清洗；形近字数据增强。
     `准召：83% / 72% (-9% / +34%)`

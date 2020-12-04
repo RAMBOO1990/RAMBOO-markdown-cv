@@ -86,19 +86,19 @@ NOIP (GuangDong) Third Prize `GuangDong, 2005.11` <br>
 * Target: Check & Delete malicious Ad, porn, insult content in Baidu Feed comment, nickname, user sign, UGC text etc.
 * Ad Antispam: Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad check rule.
     1. **word2vec** pretrain with Feed comment corpus, train **fasttext** for classifier. Add **wordseg, pinyin** feature.
-    `precision 92% / recall 38% (+33% / +18%)`
+    `PR: 92% / 38% (+33% / +18%)`
     2. **Deform Text Reverse** for malicious Ad with similar character.
-    `precision 83% / recall 72% (-9% / +34%)`
+    `PR: 83% / 72% (-9% / +34%)`
     3. **Split long text** for malicious Ad with long harmless text.
-    `precision 85% / recall 80% (+2% / +8%)`
+    `PR: 85% / 80% (+2% / +8%)`
     4. **Remove radical** for malicious Ad with deformed character by adding radical.
-    `precision 83% / recall 78% (-2% / -2%), solve malicious Ad 60%`
+    `PR: 83% / 78% (-2% / -2%), Malicious Ad solve 60%`
     5. Embedding with **Chinese charcter component**.
-    `precision 85% / recall 84% (+2% / +6%), solve malicious Ad 100%`
+    `PR: 85% / 84% (+2% / +6%), Malicious Ad solve 100%`
 * Porn & Insult Antispam:
     1.  Training Fasttext, CNN, BERT ensemble classifier.
-    `precision 60% / recall 61% (+3% / +4%)`
+    `PR: 60% / 61% (+3% / +4%)`
     2.  Use **title-comment** sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
-    `precision 79% / recall 64% (+19% / +3%)`
+    `PR: 79% / 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 
