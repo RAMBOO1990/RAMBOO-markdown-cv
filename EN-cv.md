@@ -116,13 +116,6 @@ BeiJing, China
 * Personal Work: Identification comment target, add emotion feature, add messy code detect rule.
 * Result: Reduce low quality rate on random page from 13.3% to 9% (-3.3%), low quality rate on top 50 page from 10.4% to 10.1% (-0.3%)
 
-### **Baidu Feed Low Quality Text Detection** `2019.9 – Present`
-
-* Target: Detect low quality langurage (defaming original poster, defaming famous, copy comment, messy code, etc.) from Baidu Feed comment, UGC text.
-* Personal Work: Identification comment target, add emotion feature, add messy code detect rule.
-* Result: Reduce low quality rate on random page from 13.3% to 9% (-3.3%), low quality rate on top 50 page from 10.4% to 10.1% (-0.3%)
-
-
 ### **Baidu Feed Antispam Service Development** `2017.7 – 2018.2`
 
 * Target: Develop Baidu Feed Antispam Service, support BaiJiaHao PGC, UGC content Antispam.
