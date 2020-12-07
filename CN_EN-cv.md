@@ -89,7 +89,7 @@ Supported arguments:
 
 ## 项目经历 Project Experience
 
-### **Feed短文本反作弊策略研发 Baidu Feed NLP Antispam** `2018.5 - Present`
+### **Feed短文本反作弊 Baidu Feed NLP Antispam** `2018.5 - Present`
 
 * 项目背景：识别并过滤短文本的广告、色情、辱骂文本内容，主要业务场景为百度Feed信息流评论，并已输出至百度视频弹幕、用户签名、用户昵称、百度贴吧等业务。
 * 广告反作弊策略优化：数据归一化、变体词召回、变体还原、模型识别、规则识别。模型迭代自动化，联合搜索业务封禁黑产域名。
