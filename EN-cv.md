@@ -118,7 +118,7 @@ BeiJing, China
 
 ### **Baidu Feed Antispam Service Development** `2017.7 – 2018.2`
 
-* Target: Develop Baidu Feed antispam service, support BaiJiaHao PGC, UGC content antispam.
+* Target: Develop Baidu Feed antispam service, support BaiJiaHao(百家号) PGC, UGC content antispam.
 * Personal Work: Service framework design (PHP, BigPipe, DStream) & development. Adding keyword realtime configuration ability.
 * Result: Support Baidu Feed antispam with 200k+ query daily.
 
@@ -133,8 +133,8 @@ BeiJing, China
 * Target: Support hotel room rate & guarantee online prepay and refund. Sync capital pool with Baidu Payment. Sync hotel info with TPs.
 * Personal Work: Project schedule management. Service framework design (client, business, payment, order module). Payment module development.
 * Result: Support 18500+ hotel guarantee prepayment.
-	- Order quantity > 350, GMV > 94000 RMB daily. Hotel occupancy increase 3%, order room-night increase 1.85%.
-	- Guarantee prepay rate 15.25%, is 3.55% more than Ctrip.
+	- Hotel occupancy increase 3%, order room-night increase 1.85%.
+	- Guarantee prepay order quantity > 350, GMV > 94000 RMB daily. Guarantee prepay 15.25%, is 3.55% more than Ctrip(携程旅行).
 
 <!-- ### **酒店商家自促，服务端研发接口人** `2016.12 – 2017.1`
 
