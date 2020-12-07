@@ -78,8 +78,8 @@ Supported arguments:
 * **图论（熟悉） Graph Theory: 联通性 Connectedness / 最短路 Shortest Path / 拓扑排序 Topological Sorting**
 * 数论（了解） Number Theory: 博弈论 Game Theory / 组合数学 Combinatorial Mathematics
 * 动态规划（了解） DP: 背包问题 Knapsack Problem / 记忆化搜索 Memorize Search
-* **深度神经网络（熟悉） DNN: word2vec / FastText / 卷积神经网络 CNN / 循环神经网络 RNN / BERT**
 * 机器学习（了解） Machine Learning: k近邻 k-NN / 朴素贝叶斯 Naive Bayes / 决策树 Decision Tree / k均值 k-means
+* **深度神经网络（熟悉） DNN: word2vec / FastText / 卷积神经网络 CNN / 循环神经网络 RNN / BERT**
 
 ### **软件工程 Software Engineering**
 

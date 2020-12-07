@@ -78,8 +78,8 @@ BeiJing, China
 * **Graph Theory: Connectedness / Shortest Path / Topological Sorting**
 * Number Theory: Game Theory / Combinatorial Mathematics
 * DP: Knapsack Problem / Memorize Search
-* **DNN: word2vec / FastText / CNN / RNN / BERT**
 * Machine Learning: k-NN / Naive Bayes / Decision Tree / k-means
+* **DNN: word2vec / FastText / CNN / RNN / BERT**
 
 ### **Software Engineering**
 
@@ -128,9 +128,9 @@ BeiJing, China
 * Personal Work: 数据流接入，主题模型效果调优。
 * Result: 百科知识模块分发2.6万，展现226万（占feed全量0.5%），点展比1.33%；召回百科落地页平均时长+0.9秒/每篇(+1.23%)；
  -->
-### **Baidu Hotel Guarantee Prepay Function Development** `2017.3 – 2017.4`
+### **Baidu Hotel Guarantee Prepay API Development** `2017.3 – 2017.4`
 
-* Target: Support hotel room rate & guarantee online prepay and refund. Sync capital pool with Baidu Payment. Sync hotel info with TPs.
+* Target: Support hotel room rate & guarantee prepay and refund online. Sync capital pool with Baidu Payment. Sync hotel info with TPs.
 * Personal Work: Project schedule management. Service framework design (client, business, payment, order module). Payment module development.
 * Result: Support 18500+ hotel guarantee prepayment.
 	- Hotel occupancy increase 3%, order room-night increase 1.85%.
