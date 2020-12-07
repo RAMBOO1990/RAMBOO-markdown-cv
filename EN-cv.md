@@ -93,7 +93,7 @@ BeiJing, China
 
 * Target: Detect malicious Ad, pornographic, insulting language from Baidu Feed comment, nickname, user sign, UGC text, etc.
 * Ad Antispam<!-- : Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad detect rule. -->
-    1. **word2vec** pretrain with Feed comment corpus, train **fasttext** for classifier. Add **wordseg, pinyin** feature.
+    1. Pretrain **word2vec** with comment corpus, trainning **fasttext** as a classifier with **wordseg, pinyin** feature.
     `PR: 92% / 38% (+33% / +18%)`
     2. **Deform Text Reverse** for malicious Ad with similar character.
     `PR: 83% / 72% (-9% / +34%)`
@@ -110,7 +110,7 @@ BeiJing, China
     `PR: 79% / 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 
-### **Baidu Feed Low Quality Text Detection** `2019.9 – Present`
+### **Baidu Feed Low Quality Langurage Detection** `2019.9 – Present`
 
 * Target: Detect low quality langurage (defaming original poster, defaming famous, copy comment, messy code, etc.) from Baidu Feed comment, UGC text.
 * Personal Work: Identification comment target, add emotion feature, add messy code detect rule.
