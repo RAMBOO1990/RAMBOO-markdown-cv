@@ -93,7 +93,7 @@ BeiJing, China
 
 * Target: Detect malicious Ad, pornographic, insulting language from Baidu Feed comment, nickname, user sign, UGC text, etc.
 * Ad Antispam<!-- : Data Normalize, Deform word recall, Deform text Reverse, Fasttext model training, Ad detect rule. -->
-    1. Pretrain **word2vec** with comment corpus, trainning **fasttext** as a classifier with **wordseg, pinyin** feature.
+    1. Pretrain **word2vec** with comment corpus, trainning **fasttext** with **wordseg, pinyin** feature.
     `PR: 92% / 38% (+33% / +18%)`
     2. **Deform Text Reverse** for malicious Ad with similar character.
     `PR: 83% / 72% (-9% / +34%)`
@@ -106,21 +106,21 @@ BeiJing, China
 * Porn & Insult Antispam
     1.  Training Fasttext, CNN, BERT ensemble classifier.
     `PR: 60% / 61% (+3% / +4%)`
-    2.  Use **title-comment** sentence pair for BERT NSP pretrain. Add labeled corpus for BERT Finetune.
+    2.  Use **title-comment** sentence pair for BERT NSP pretrain. Finetuning BERT with more labeled corpus.
     `PR: 79% / 64% (+19% / +3%)`
 * Result: Keep spam rate on random page < 0.5%, and spam rate on top 50 page daily < 0.5%
 
 ### **Baidu Feed Low Quality Langurage Detection** `2019.9 – Present`
 
 * Target: Detect low quality langurage (defaming original poster, defaming famous, copy comment, messy code, etc.) from Baidu Feed comment, UGC text.
-* Personal Work: Identification comment target, add emotion feature, add messy code detect rule.
+* Personal Work: Comment target identification. Adding emotion feature. Adding messy code detect rule.
 * Result: Reduce low quality rate on random page from 13.3% to 9% (-3.3%), low quality rate on top 50 page from 10.4% to 10.1% (-0.3%)
 
 ### **Baidu Feed Antispam Service Development** `2017.7 – 2018.2`
 
-* Target: Develop Baidu Feed Antispam Service, support BaiJiaHao PGC, UGC content Antispam.
-* Personal Work: Service framework design (PHP + BigPipe + DStream) & development. Add keyword realtime configuration ability.
-* Result: Support Baidu Feed antispam, daily query above 200k.
+* Target: Develop Baidu Feed antispam service, support BaiJiaHao PGC, UGC content antispam.
+* Personal Work: Service framework design (PHP, BigPipe, DStream) & development. Adding keyword realtime configuration ability.
+* Result: Support Baidu Feed antispam with 200k+ query daily.
 
 <!-- ### **相关知识推荐，策略研发** `2017.5 – 2017.6 `
 
@@ -131,9 +131,9 @@ BeiJing, China
 ### **Baidu Hotel Guarantee Prepay Function Development** `2017.3 – 2017.4`
 
 * Target: Support hotel room rate & guarantee online prepay and refund. Sync capital pool with Baidu Payment. Sync hotel info with TPs.
-* Personal Work: Project schedule management. Service framework design (business, client, payment, order module). Payment module development.
-* Result: Support 18580 hotel guarantee prepayment.
-	- Order quantity average > 350, GMV > 94000 RMB daily, ccupancy rate increase 3%, order room-night increase 1.85%.
+* Personal Work: Project schedule management. Service framework design (client, business, payment, order module). Payment module development.
+* Result: Support 18500+ hotel guarantee prepayment.
+	- Order quantity > 350, GMV > 94000 RMB daily. Hotel occupancy increase 3%, order room-night increase 1.85%.
 	- Guarantee prepay rate 15.25%, is 3.55% more than Ctrip.
 
 <!-- ### **酒店商家自促，服务端研发接口人** `2016.12 – 2017.1`
