@@ -128,7 +128,7 @@ BeiJing, China
 * Personal Work: 数据流接入，主题模型效果调优。
 * Result: 百科知识模块分发2.6万，展现226万（占feed全量0.5%），点展比1.33%；召回百科落地页平均时长+0.9秒/每篇(+1.23%)；
  -->
-### **Baidu Hotel Guarantee Prepay API Development** `2017.3 – 2017.4`
+### **Baidu Hotel Guarantee Prepay Service Development** `2017.3 – 2017.4`
 
 * Target: Support hotel room rate & guarantee prepay and refund online. Sync capital pool with Baidu Payment. Sync hotel info with TPs.
 * Personal Work: Project schedule management. Back-end architecture design (client, business, payment, order module). Payment module development.
