@@ -100,9 +100,9 @@ BeiJing, China
     3. **Split long text** for malicious Ad with long harmless text.
     `PR: 85% / 80% (+2% / +8%)`
     4. **Remove radical** for malicious Ad with deformed character by adding radical.
-    `PR: 83% / 78% (-2% / -2%), Malicious Ad solve 60%`
+    `PR: 83% / 78% (-2% / -2%). Malicious Ad solve 60%`
     5. Embedding with **Chinese charcter component**.
-    `PR: 85% / 84% (+2% / +6%), Malicious Ad solve 100%`
+    `PR: 85% / 84% (+2% / +6%). Malicious Ad solve 100%`
 * Porn & Insult Antispam
     1.  Training Fasttext, CNN, BERT ensemble classifier.
     `PR: 60% / 61% (+3% / +4%)`
