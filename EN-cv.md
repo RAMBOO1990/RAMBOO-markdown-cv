@@ -89,6 +89,54 @@ BeiJing, China
 
 ## Project Experience
 
+### **Overseas SPU Same Style & Price Comparison** `2022.03 - 2022.08`
+
+* Project Background: Expansion of overseas e-commerce business requires support from commodity same-style ability to address shortage and price comparison in merchant business. Due to cross-language and poor infrastructure for overseas e-commerce, such as basic attributes.
+* Individual Work:
+    - Constructing key attributes for comparison, such as model, set, quantity, size, weight, and capacity, and promoting the optimization of SPU attributes such as category and brand at a granular level
+    - Establishing key attribute configuration to support attribute matching at different granularities
+    - Incorporating SPU same-style models to assist in multilingual text same-style matching effects
+* Results: Based on the Arctic goods inventory in Indonesia in July/August, the accuracy of the shortage SPU increased from 60% to 69%, the accuracy of SPU same-style recall increased from 73%/57% to 79%/60%, and the accuracy of comparable prices increased from 65% to 82%.
+    - Accuracy of key attribute matching for comparison increased from 84.13%/68.67% to 83.08%/96.95%.
+    - End-to-end accuracy recall increased from 77.80%/69.79% to 77.96%/96.95%.
+    - TTS price advantage rate increased from 56.86% to 60.08%.
+    - TTS non-disadvantage price rate increased from 62.86% to 65.69%.
+
+### **Digital SPU Same-item Strategy Optimization** `2021.06 - 2022.02`
+
+```
+Project Owner
+```
+
+* Project Background: In the 3C digital household appliances industry, the same digital items are recognized at the SPU granularity.
+* Individual work: Overall strategies are formulated from two aspects of the product: product level and information quality.
+    - Product level: accessory recognition (category, keywords), abnormal price differences, brand level, category, etc.
+    - Product information quality: sets, disorder, attribute conflicts (self-filled attributes, title, different models in pictures), etc.
+    - For standardized and high-quality information products, more text-structured features are used (stricter brand, category, and model judgments); for non-standardized and low-quality information products, more picture features are used (higher whole picture, first picture, and similarity threshold of picture subjects).
+    - Basic attribute optimization (SKU title recognition model, etc.), feature matching strategy optimization (title supplement model suffix, model suffix compatibility, editing distance compatibility, etc.).
+* Results: 3C digital household appliances market recall 92.31%/54.78%; recall in the same store 87.22%; validation set recall 94.36%/73.22%.
+
+
+### **SPU Same-Style Strategy** `2021.03 - present`
+* Project Background: Identify SPU same-style products, construct SPU same-style clusters, and provide SPU same-style capabilities for product same-style recommendation, search, deduplication, richness shortage judgment, and other business services.
+* Personal Work:
+    - Optimize SPU cluster features to increase coverage to 99%+, and enhance product cluster recall ability.
+        + Accuracy of first-level category in cluster category 93% (+3%), accuracy of second and third-level categories 77%
+        + Accuracy of cluster keywords increased from 38% to 77% (+39%), recall improved from 56% to 63% (+7%), and built own product keywords.
+        + Accuracy of cluster brand 93%.
+    - Optimized product cluster recall: Product-Cluster Keyword Single Recall 94.81%, Product-Product Recall 88% to 91% (+3%).
+    - Refactored product cluster similarity service to reduce calculation and improve service performance.
+    - Built same-style sort service with optimized features.
+* Results: Sorted out different industry cluster features, recall accuracy improved significantly to 90%+, and SPU product cluster similarity service performance improved significantly, QPS increased from 100 to 500+.
+
+
+### **Construction of the sku deduplication cluster pipeline** `2021.10 - 2022.02`
+
+* Project Background: Based on the current SPU cluster capability, the SKU-level same-type capability is provided for the product comparison business through the fine-grained SKU clustering.
+* Personal Work: Designing the overall solution for sku deduplication, building cluster mounting, sku cluster bucket, cluster similarity, and cluster feature update services, and integrating the entire pipeline process.
+* Results: The sku deduplication cluster was built with an MVP solution, with an overall pipeline QPS of 500+ and a pct999 delay of 5s-.
+
+
 ### **Baidu Feed Short Text Antispam** `2018.5 - Present`
 
 * Target: Detect malicious Ad, pornographic, insulting language from Baidu Feed comment, nickname, user sign, UGC text, etc.
